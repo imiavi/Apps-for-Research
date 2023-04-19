@@ -1,5 +1,4 @@
-#ファイル名
-file_name = "kaigyou_del.txt"
+file_name = "kaigyou_del.txt"　#ファイル名
 
 with open(file_name, encoding="utf-8") as f:
     line = f.read().replace('\n', ' ').replace('. ', '.\n')
